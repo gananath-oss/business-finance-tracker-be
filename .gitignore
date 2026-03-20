@@ -31,3 +31,10 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Environment variables (NEVER commit secrets)
+.env
+application-local.properties
+
+# Mac
+.DS_Store

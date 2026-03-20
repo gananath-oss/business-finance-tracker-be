@@ -37,4 +37,4 @@ build/
 application-local.properties
 
 # Mac
-.DS_Store
+.DS_StoreX

@@ -38,3 +38,6 @@ application-local.properties
 
 # Mac
 .DS_StoreX
+
+# Docker
+docker-compose.override.yml

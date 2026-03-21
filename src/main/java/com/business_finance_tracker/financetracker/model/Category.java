@@ -22,7 +22,7 @@ public class Category {
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
-    private PersistenceUnitTransactionType type;
+    private TransactionType type;
 
 
     @ManyToOne(fetch = FetchType.LAZY)

@@ -84,6 +84,7 @@ public class AuthService {
     }
 
     // ── Login with email and password ─────────────────────
+    @Transactional(readOnly = true)
     public AuthResponse login(LoginRequest request) {
 
         // 1. Authenticate — throws exception if wrong credentials
